@@ -12,7 +12,7 @@ Feature: Uber Booking feature
   @Regression
   Scenario: Booking cab SUV
     Given User wants to select a car type from "SUV" from Uber App
-    When user select car "SUV" and pick up point "Bangalore" and drop location is "Chennai"
+    When user a select car "SUV" and pick up point "Bangalore" and drop location is "Chennai"
     Then driver starts the Journey
     And Driver ends the Journey
     Then User pays 10000 USD
